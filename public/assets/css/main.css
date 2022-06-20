@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Tarnac";
+    src: url("/assets/fonts/TarnacSans-Regular.woff") format("woff"),
+         url("/assets/fonts/TarnacSans-Regular.woff2") format("woff2"),
+         url("/assets/fonts/TarnacSans-Regular.eot") format("eot");
+}
+
+@font-face {
+    font-family: "Roobert";
+    src: url("/assets/fonts/Roobert-Medium.woff") format("woff"),
+         url("/assets/fonts/Roobert-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Roobert Italic";
+    src: url("/assets/fonts/Roobert-MediumItalic.woff") format("woff"),
+         url("/assets/fonts/Roobert-MediumItalic.woff   2") format("woff2");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Roobert';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.vm--overlay {
+    background: rgba(0, 0, 0, 0.64);
+    backdrop-filter: blur(24px);
+}
+
+.auth-modal {
+    background: #FFFFFF;
+    box-shadow: 0px 8.58449px 12.8767px rgba(0, 0, 0, 0.08), inset 0px 2.14612px 2.14612px rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
